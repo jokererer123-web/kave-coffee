@@ -1,14 +1,16 @@
-# KAVÉ — Coffee & Roastery ☕
+# RNS — Coffee & Dining ☕🍽️
 
-Lüks kafe-restoran için tek dosyalık, modern landing page.
+Rezervasyon odaklı, tek dosyalık lüks kafe-restoran deneyimi.
 
-## Özellikler
-- Hero: süzülen kahve çekirdekleri, fare paralaksı, GSAP destekli animasyonlar
-- Glassmorphism kartlar (hizmetler, ürünler, yorumlar, rezervasyon)
-- Tam çalışan sepet (localStorage), favoriler, canlı arama
-- Rezervasyon formu + açık/kapalı durumu (gerçek saate göre)
-- %100 responsive, Tailwind CDN + özel CSS yedeği
-- Görseller AI ile üretilmiştir (images/)
+## Öne çıkanlar
+- **Adım adım rezervasyon sihirbazı:** tarih → kişi sayısı → vesile → müsait saat
+  dilimleri (geçmiş saatler otomatik kapanır, doluluk gösterilir) → ad/telefon →
+  referans numaralı onay ekranı (localStorage'a kaydedilir)
+- Editoryal lüks tasarım: koyu/krem bölüm kontrastı, dev serif tipografi, RNS filigranı
+- Sipariş sepeti (uçan görsel animasyonu + localStorage), favoriler, canlı menü arama
+- Açık/kapalı durumu gerçek saate göre, sayaçlar, reveal animasyonları
+- SEO + sosyal: og/twitter meta, Restaurant JSON-LD şeması
+- %100 responsive; Tailwind CDN isteğe bağlı, özel CSS esastır
 
 ## Çalıştırma
-`index.html` dosyasını açmanız yeterli — derleme gerekmez.
+`index.html` açmanız yeterli — derleme gerekmez.

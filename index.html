@@ -5,6 +5,32 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>KAVÉ — Coffee & Roastery | Kahvaltı · Öğle · Özel Akşam Yemekleri · Kafe</title>
 <meta name="description" content="KAVÉ Coffee & Roastery — İstanbul'da kahvaltı, öğle yemeği, özel gün akşam yemekleri ve gün boyu premium kafe deneyimi.">
+<meta name="theme-color" content="#140A06">
+<meta property="og:type" content="website">
+<meta property="og:title" content="KAVÉ — Coffee &amp; Roastery | Kadıköy, İstanbul">
+<meta property="og:description" content="Kahvaltı, öğle yemeği, özel gün akşam yemekleri ve gün boyu premium kafe deneyimi.">
+<meta property="og:url" content="https://jokererer123-web.github.io/kave-coffee/">
+<meta property="og:image" content="https://jokererer123-web.github.io/kave-coffee/images/hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "KAVÉ Coffee & Roastery",
+  "description": "Kahvaltı, öğle yemeği, özel gün akşam yemekleri ve gün boyu premium kafe deneyimi.",
+  "servesCuisine": ["Kahve", "Kahvaltı", "Türk Mutfağı", "Dünya Mutfağı"],
+  "priceRange": "₺₺",
+  "telephone": "+90 216 555 12 34",
+  "url": "https://jokererer123-web.github.io/kave-coffee/",
+  "image": "https://jokererer123-web.github.io/kave-coffee/images/hero.jpg",
+  "acceptsReservations": "True",
+  "address": { "@type": "PostalAddress", "streetAddress": "Bağdat Caddesi No:127", "addressLocality": "Kadıköy", "addressRegion": "İstanbul", "addressCountry": "TR" },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "23:30" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday","Sunday"], "opens": "09:00", "closes": "23:59" }
+  ]
+}
+</script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 60'%3E%3Cellipse cx='22' cy='30' rx='18' ry='27' fill='%23D9B88F'/%3E%3Cpath d='M22 6c-7 9 7 15 0 24s7 15 0 24' stroke='%232C1A14' stroke-width='4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
 
 <!-- Fontlar (çevrimdışıyken sistem serif/sans yedeğine düşer) -->
@@ -495,7 +521,7 @@ footer{border-top:1px solid var(--line);background:rgba(12,6,3,.55);padding:72px
       <a href="#kahveler" class="btn btn-gold" style="padding:.72rem 1.35rem;font-size:.82rem">
         <span class="nav-cta-txt">Online Sipariş</span><svg class="icon"><use href="#i-arrow"/></svg>
       </a>
-      <button class="burger" id="burger" aria-label="Menüyü aç/kapat"><span></span></button>
+      <button class="burger" id="burger" aria-label="Menüyü aç/kapat" aria-expanded="false"><span></span></button>
     </div>
   </div>
 </header>
@@ -628,7 +654,7 @@ footer{border-top:1px solid var(--line);background:rgba(12,6,3,.55);padding:72px
         <article class="m-card glass reveal">
           <div class="m-media">
             <span class="m-time">SABAH · 08:00 – 12:00</span>
-            <img src="images/breakfast.jpg" alt="Bakır sahanda menemenli lüks serpme Türk kahvaltısı" loading="lazy">
+            <img src="images/breakfast.jpg" alt="Bakır sahanda menemenli lüks serpme Türk kahvaltısı" loading="lazy" decoding="async">
           </div>
           <div class="m-body">
             <h3>Kahvaltı &amp; Brunch</h3>
@@ -640,7 +666,7 @@ footer{border-top:1px solid var(--line);background:rgba(12,6,3,.55);padding:72px
         <article class="m-card glass reveal" style="--d:.1s">
           <div class="m-media">
             <span class="m-time">ÖĞLE · 12:00 – 17:00</span>
-            <img src="images/lunch.jpg" alt="Ot tereyağlı ızgara somon — şefin öğle tabağı" loading="lazy">
+            <img src="images/lunch.jpg" alt="Ot tereyağlı ızgara somon — şefin öğle tabağı" loading="lazy" decoding="async">
           </div>
           <div class="m-body">
             <h3>Öğle Menüsü</h3>
@@ -652,7 +678,7 @@ footer{border-top:1px solid var(--line);background:rgba(12,6,3,.55);padding:72px
         <article class="m-card glass reveal" style="--d:.2s">
           <div class="m-media">
             <span class="m-time">AKŞAM · 18:00 – 23:30</span>
-            <img src="images/dinner.jpg" alt="Mum ışığında özel gün akşam yemeği — biftek ve kırmızı şarap" loading="lazy">
+            <img src="images/dinner.jpg" alt="Mum ışığında özel gün akşam yemeği — biftek ve kırmızı şarap" loading="lazy" decoding="async">
           </div>
           <div class="m-body">
             <h3>Özel Akşamlar</h3>
@@ -682,7 +708,7 @@ footer{border-top:1px solid var(--line);background:rgba(12,6,3,.55);padding:72px
     <div class="container about-grid">
       <div class="about-visual reveal">
         <div class="av-frame">
-          <img src="images/interior.jpg" alt="KAVÉ kavurma evi iç mekânı — sıcak ışıklar, ceviz ve pirinç detaylar" loading="lazy">
+          <img src="images/interior.jpg" alt="KAVÉ kavurma evi iç mekânı — sıcak ışıklar, ceviz ve pirinç detaylar" loading="lazy" decoding="async">
         </div>
         <div class="av-badge glass"><b><span class="count" data-count="12">0</span>+</b><span>Yıllık Tutku</span></div>
       </div>
@@ -918,8 +944,9 @@ $$(".count").forEach(el => cio.observe(el));
 
 /* ---------- Mobil menü ---------- */
 const burger = $("#burger");
-burger.addEventListener("click", () => document.body.classList.toggle("nav-open"));
-$$("#mnav a").forEach(a => a.addEventListener("click", () => document.body.classList.remove("nav-open")));
+const setNav = (open) => { document.body.classList.toggle("nav-open", open); burger.setAttribute("aria-expanded", String(open)); };
+burger.addEventListener("click", () => setNav(!document.body.classList.contains("nav-open")));
+$$("#mnav a").forEach(a => a.addEventListener("click", () => setNav(false)));
 
 /* ---------- Aktif nav linki ---------- */
 const navLinks = $$("nav.main-nav a");
@@ -947,7 +974,7 @@ function renderProducts(){
   $("#pGrid").innerHTML = PRODUCTS.map((p, i) => `
     <article class="p-card glass reveal" style="--d:${i * 0.08}s" data-card="${p.id}">
       <div class="p-media">
-        <img src="${p.img}" alt="${p.name}" loading="lazy">
+        <img src="${p.img}" alt="${p.name}" loading="lazy" decoding="async">
         <span class="p-badge">${p.badge}</span>
         <button class="p-fav" data-fav="${p.id}" aria-label="${p.name} favorilere ekle"><svg class="icon"><use href="#i-heart"/></svg></button>
       </div>
@@ -1092,7 +1119,7 @@ sRes.addEventListener("click", (e) => {
   if (card) { card.scrollIntoView({ behavior:"smooth", block:"center" }); card.classList.remove("flash"); void card.offsetWidth; card.classList.add("flash"); }
 });
 addEventListener("keydown", (e) => {
-  if (e.key === "Escape") { searchOv.classList.remove("open"); closeDrawer(); document.body.classList.remove("nav-open"); }
+  if (e.key === "Escape") { searchOv.classList.remove("open"); closeDrawer(); setNav(false); }
 });
 
 /* ---------- Açık / kapalı durumu ---------- */
